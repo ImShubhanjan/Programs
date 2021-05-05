@@ -18,12 +18,6 @@ public class SubsetSum {
                 }
             }
         }
-//        for (int i=0; i<n+1; i++) {
-//            for (int j=0; j<sum+1; j++) {
-//                System.out.print(dp[i][j]+ " ");
-//            }
-//            System.out.println();
-//        }
         return dp[n][sum];
     }
     public static void main(String[] args) {
